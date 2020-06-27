@@ -131,7 +131,7 @@ $ python test.py -net vgg16 -weights path_to_vgg16_weights_file
 ## Training Details
 
 I didn't use any training tricks to improve accuray, if you want to learn more about training tricks,
-please refer to my another [repo](https://github.com/weiaicunzai/Bag_of_Tricks_for_Image_Classification_with_Convolutional_Neural_Networks), contains
+please refer to [this repository](https://github.com/weiaicunzai/Bag_of_Tricks_for_Image_Classification_with_Convolutional_Neural_Networks), which contains
 various common training tricks and their pytorch implementations.
 
 Basically, I followed the hyperparameter settings in paper [Improved Regularization of Convolutional Neural Networks with Cutout](https://arxiv.org/abs/1701.06548v1), which is init lr = 0.1 divide by 5 at 60th, 120th, 160th epochs, train for 200
